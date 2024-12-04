@@ -33,7 +33,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task0.V15
             }
             catch
             {
-                MessageBox.Show("¬ведены неверные данные", "ќшибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("¬в едены неверные данные", "ќшибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
