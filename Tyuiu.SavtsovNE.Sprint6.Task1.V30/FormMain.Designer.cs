@@ -60,7 +60,7 @@
             // 
             // textBoxResult_SRR
             // 
-            textBoxResult_SRR.Location = new Point(39, 92);
+            textBoxResult_SRR.Location = new Point(419, 145);
             textBoxResult_SRR.Name = "textBoxResult_SRR";
             textBoxResult_SRR.Size = new Size(270, 23);
             textBoxResult_SRR.TabIndex = 3;

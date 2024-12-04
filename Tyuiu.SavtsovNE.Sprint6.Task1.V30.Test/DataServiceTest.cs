@@ -19,7 +19,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task1.V30.Test
                 wait[1] = -27.5;
                 wait[2] = -22.8;
                 wait[3] = -17.95;
-                wait[4] = -12.97;
+                wait[4] = -12.97 ;
                 wait[5] = -9.0;
                 wait[6] = -0.31;
                 wait[7] = 3.77;

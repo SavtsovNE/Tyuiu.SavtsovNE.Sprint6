@@ -18,7 +18,8 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task1.V30.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round((2 * x - 3) / (Math.Cos(x) - 2 * x) + 5 * x - 6, 3);
+                // Измените округление на 2 знака после запятой
+                y = Math.Round((2 * x - 3) / (Math.Cos(x) - 2 * x) + 5 * x - 6, 2);
                 valueArray[count] = y;
                 count++;
             }
