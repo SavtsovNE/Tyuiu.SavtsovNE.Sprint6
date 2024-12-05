@@ -20,12 +20,15 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11.Lib
                     if (string.IsNullOrWhiteSpace(line)) // Пропускаем пустые строки
                         continue;
 
-                    string[] words = line.Split(' ');
+                    // Разделяем строку на слова
+                    string[] words = line.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+                    // Проверяем количество слов
                     if (words.Length > 1)
                     {
                         result.Append(words[words.Length - 2]).Append(" ");
                     }
-                    else
+                    else if (words.Length == 1)
                     {
                         result.Append(words[0]).Append(" ");
                     }
