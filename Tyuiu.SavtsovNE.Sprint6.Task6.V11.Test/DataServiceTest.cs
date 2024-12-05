@@ -12,7 +12,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11.Test
         {
             DataService service = new DataService();
             string testPath = @"C:\DataSprint5\InPutDataFileTask7V12.txt";
-            Assert.AreEqual("заглавых", service.CollectTextFromFile("", testPath).ToLower());
+            Assert.AreEqual("заглавых ", service.CollectTextFromFile("", testPath).ToLower());
         }
     }
 }
