@@ -14,7 +14,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11
 {
     public partial class FormMain : Form
     {
-        public FormMain()
+        public FormMain( )
         {
             InitializeComponent();
         }
