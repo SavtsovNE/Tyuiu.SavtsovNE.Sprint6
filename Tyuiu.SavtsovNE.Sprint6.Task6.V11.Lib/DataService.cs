@@ -10,7 +10,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11.Lib
 {
     public class DataService : ISprint6Task6V11
     {
-        public string CollectTextFromFile(string str, string path)
+        public string CollectTextFromFile(string str,  string path)
         {
             string[] content = File.ReadAllLines(path);
             str = "";
@@ -26,6 +26,11 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11.Lib
                 }
             }
             return str;
+        }
+
+        public string CollectTextFromFile(string path)
+        {
+            throw new NotImplementedException();
         }
     }
 }
