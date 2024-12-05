@@ -12,7 +12,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11
             InitializeComponent();
         }
 
-        DataService service = new DataService( );
+        DataService service = new DataService(  );
         string filePath;
 
         private void buttonFileInput_Click(object sender, EventArgs e)
