@@ -10,9 +10,13 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11.Test
         [TestMethod]
         public void ContextTest()
         {
-            DataService service = new DataService();
-            string testPath = @"C:\Users\Admin\Desktop\InPutFileTask6V11.txt";
-            Assert.AreEqual("заглавых ", service.CollectTextFromFile("",  testPath).ToLower());
+           
+            
+                var dataService = new DataService();
+                string result = dataService.CollectTextFromFile("/app/data/AssesmentData/C#/Sprint6Task6/InPutDataFileTask6V11.txt", "somePath");
+                Assert.AreEqual("btwMCZUcB PADUsjhlu JmjQKHd TMRyztkPxzEVkcarVMlQ EUWCvEgL", result);
+            
+
         }
     }
 }
