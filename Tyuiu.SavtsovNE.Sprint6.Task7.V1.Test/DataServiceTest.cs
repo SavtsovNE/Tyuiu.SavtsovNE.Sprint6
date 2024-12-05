@@ -15,7 +15,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task7.V1.Test
             int[,] wait = new int[2, 2] { { 1, 0 },
                                           { 0, 1 } };
             int[,] res = ds.GetMatrix(path);
-            CollectionAssert.AreEqual(wait, res);
+            CollectionAssert.AreEqual(wait,  res);
         }
     }
 }

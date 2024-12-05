@@ -14,7 +14,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task7.V1
 {
     public partial class FormMain : Form
     {
-        DataService ds = new DataService();
+        DataService ds = new DataService( );
         static string path;
         static int coll;
         static int rows;
