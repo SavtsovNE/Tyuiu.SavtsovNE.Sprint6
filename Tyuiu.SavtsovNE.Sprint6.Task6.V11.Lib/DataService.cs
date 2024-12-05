@@ -30,7 +30,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11.Lib
 
         public string CollectTextFromFile(string path)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException( );
         }
     }
 }

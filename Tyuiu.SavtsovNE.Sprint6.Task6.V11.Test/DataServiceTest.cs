@@ -11,7 +11,7 @@ namespace Tyuiu.SavtsovNE.Sprint6.Task6.V11.Test
         public void ContextTest()
         {
             DataService service = new DataService();
-            string testPath = @"C: \DataSprint5\InPutDataFileTask7V12.txt";
+            string testPath = @"C:\Users\Admin\Desktop\InPutDataFileTask6V11.txt";
             Assert.AreEqual("заглавых ", service.CollectTextFromFile("", testPath).ToLower());
         }
     }
